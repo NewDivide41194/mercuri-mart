@@ -1,4 +1,17 @@
 @import "tailwindcss";
+.pro-sidebar {
+  height: 100vh !important;
+  background-color: #1e293b !important; /* Tailwind gray-800 */
+  color: white !important;
+}
+
+.pro-menu-item {
+  padding: 10px !important;
+}
+
+.pro-menu-item:hover {
+  background-color: #334155 !important; /* Tailwind gray-700 */
+}
 
 @theme {
   --font-sans: var(--font-geist-sans);
